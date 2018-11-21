@@ -30,7 +30,7 @@
     <configuration>
         <url>http://jenkinsmaster.com:8080/manager/</url>
         <server>tomcatserver</server>
-        <path>/mycontext</path>
+        <path>/Balu_Sai_Demo</path>
         <username>admin</username>
         <password>admin</password>
     </configuration>
