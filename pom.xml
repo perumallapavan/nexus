@@ -24,16 +24,26 @@
         </configuration>
       </plugin>
     </plugins>
-  	<plugin>
-		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat7-maven-plugin</artifactId>
-		<version>2.2</version>
-		<configuration>
-			<url>http://192.168.132.136:8080/manager/text</url>
-			<server>TomcatServer</server>
-			<path>/mkyongWebApp</path>
-		</configuration>
-	</plugin>
+  	<project>
+  ...
+  <build>
+    ...
+    <plugins>
+      ...
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.3-SNAPSHOT</version>
+        <configuration>
+          <url>http://www.mydomain.com:1234/mymanager</url>
+        </configuration>
+      </plugin>
+      ...
+    </plugins>
+    ...
+  </build>
+  ...
+</project>
 
   </build>
    <distributionManagement>
