@@ -28,9 +28,9 @@
     <artifactId>tomcat7-maven-plugin</artifactId>
     <version>2.2</version>
     <configuration>
-        <url>http://jenkinsbuild.com:8080/</url>
+        <url>http://jenkinsbuild.com:8080/manager</url>
         <server>tomcatserver</server>
-        <path>/Balu_Sai_Demo</path>
+        <path>/webapps</path>
         <username>admin</username>
         <password>admin</password>
     </configuration>
