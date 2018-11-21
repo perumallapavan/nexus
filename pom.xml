@@ -30,7 +30,7 @@
     <configuration>
         <url>http://jenkinsbuild.com:8080/manager/</url>
         <server>tomcatserver</server>
-        <path>/Balu_Sai_Demo</path>
+        <path>//opt/apache-tomcat-8.0.53/webapps/Balu_Sai_Demo</path>
         <username>admin</username>
         <password>admin</password>
     </configuration>
