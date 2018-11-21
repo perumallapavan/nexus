@@ -32,9 +32,10 @@
             <url>http://nexusserver.com:8081/repository/repo/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>tomcat</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexusserver.com:8081/repository/project/</url>
+            <url>http://http://192.168.132.136:8080/manager/</url>
+          <path>/opt/apache-tomcat-8.0.53/webapps/<path>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
